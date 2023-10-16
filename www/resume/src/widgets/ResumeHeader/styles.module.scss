@@ -1,0 +1,24 @@
+.resumeHeader {
+    display: flex;
+    justify-content: space-between;
+    width: $content-width;
+    font-size: $font-l;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    .name {
+        font-size: $font-l;
+    }
+
+    .currentWork {
+        font-family: "Regular";
+        font-size: $font-s;
+        color: $secondary-text;
+    }
+}
+
+.langSwitch {}

@@ -1,0 +1,8 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    width: $content-width;
+    max-width: $content-width;
+}

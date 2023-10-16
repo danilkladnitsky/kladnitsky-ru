@@ -1,0 +1,58 @@
+@import '@mantine/core/styles.css';
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('@public/fonts/Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('@public/fonts/Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('@public/fonts/Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src: url('@public/fonts/Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('@public/fonts/Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Black';
+    src: url('@public/fonts/Black.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: $primary-bg;
+    color: $primary-text;
+
+    font-family: 'Regular';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: $font-m;
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
