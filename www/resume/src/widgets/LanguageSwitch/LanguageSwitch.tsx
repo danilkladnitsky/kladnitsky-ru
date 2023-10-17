@@ -1,5 +1,5 @@
-import { Switch, Button } from '@mantine/core';
 import classNames from 'classnames';
+import { Switch } from '@gravity-ui/uikit';
 
 type Props = {
     className?: string;
@@ -8,8 +8,7 @@ type Props = {
 export const LanguageSwitch = ({ className }: Props) => {
   return (
     <div className={classNames(className)}>
-      <Switch label="English" />
-      <Button>Test</Button>
+      <Switch content="En" size="l" />
     </div>
   )
 }

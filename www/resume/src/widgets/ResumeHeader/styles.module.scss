@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     width: $content-width;
-    font-size: $font-l;
 }
 
 .author {
@@ -12,11 +11,12 @@
 
     .name {
         font-size: $font-l;
+        font-family: 'Medium';
     }
 
     .currentWork {
         font-family: "Regular";
-        font-size: $font-s;
+        font-size: $font-sm;
         color: $secondary-text;
     }
 }
